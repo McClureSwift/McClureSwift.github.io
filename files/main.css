@@ -353,6 +353,10 @@ h1.style1 span.p, h2.style1 span.p, h3.style1 span.p, p.style1 span.p {
 	-webkit-text-fill-color: transparent !important;
 }
 
+p.style2 {
+	text-align: left !important;
+}
+
 h1.style2, h2.style2, h3.style2, p.style2 {
 	color: rgba(255,255,255,0.69);
 	font-family: 'Sofia Sans', sans-serif;
@@ -776,7 +780,7 @@ hr.style1:before {
 }
 
 #gallery01 ul li .frame {
-	border-radius: 2.375rem;
+	border-radius: 0rem;
 }
 
 #gallery01 ul li .thumbnail {
